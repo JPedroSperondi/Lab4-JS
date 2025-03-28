@@ -52,6 +52,8 @@ function showTopFlavors(jsonObj) {
         //create new paragraph element
         let p1 = document.createElement('p');
 
+        let p2 = document.createElement('p');
+
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent = topFlavors[i]["name"];
         image.setAttribute('src','https://raw.githubusercontent.com/shiv-coder/COMP1073W/main/lesson-10/lesson-10/images/' + topFlavors[i].image)

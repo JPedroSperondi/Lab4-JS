@@ -70,7 +70,7 @@ function showTopFlavors(jsonObj) {
         //change p1 content
         p1.textContent = topFlavors[i]['calories'] + ' kcal';
         //change p2 content
-        p1.textContent = topFlavors[i]['type'];
+        p2.textContent = topFlavors[i]['type'];
 
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
         article.appendChild(h2);

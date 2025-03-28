@@ -25,6 +25,17 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+      "name" : " Super Strawberry",
+      "calories" : 300,
+      "type" : "ice cream",
+      "ingredients" : [
+        "Strawberry fruit",
+        "honey",
+        "vanilla extract"
+      ],
+      "image" : "strawberry-sprinkle.svg"
     }
     
     

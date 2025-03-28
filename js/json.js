@@ -51,7 +51,7 @@ function showTopFlavors(jsonObj) {
         let ul = document.createElement('ul');
         //create new paragraph element
         let p1 = document.createElement('p');
-
+        //create another paragraph element
         let p2 = document.createElement('p');
 
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
@@ -69,7 +69,7 @@ function showTopFlavors(jsonObj) {
 
         //change p1 content
         p1.textContent = topFlavors[i]['calories'] + ' kcal';
-
+        //change p2 content
         p1.textContent = topFlavors[i]['type'];
 
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element

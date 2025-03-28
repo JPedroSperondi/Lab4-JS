@@ -27,7 +27,7 @@
       "image" : "peach-mango.svg"
     },
     {
-      "name" : " Super Strawberry",
+      "name" : "Super Strawberry",
       "calories" : 300,
       "type" : "ice cream",
       "ingredients" : [
@@ -37,7 +37,18 @@
       ],
       "image" : "strawberry-sprinkle.svg"
     }
-    
+    ,
+    {
+      "name" : "Vanilla special",
+      "calories" : 250,
+      "type" : "sorbet",
+      "ingredients" : [
+        "vanilla extract",
+        "milk",
+        "dark chocolate chips"
+      ],
+      "image" : "ice-cream-xtra2.svg"
+    }
     
   ]
 }
